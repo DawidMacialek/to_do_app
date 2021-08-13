@@ -42,7 +42,7 @@ class AddTask extends Component {
       <div className="form">
         <input
           type="text"
-          placeholder="put your task here"
+          placeholder="Add your task here"
           value={this.state.text}
           onChange={this.handleChangeInput}
         />
