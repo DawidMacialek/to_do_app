@@ -5,39 +5,15 @@ import TaskList from "./TaskList";
 
 const todayDate = new Date().toISOString().slice(0, 10);
 class App extends Component {
-  counter = 4;
+  counter = 1;
   state = {
     tasks: [
       {
         id: 0,
-        text: "Zrobic papa",
+        text: "Example Task, please add your own tasks above! Enjoy!",
         date: todayDate,
         active: true,
         important: true,
-        finishDate: null,
-      },
-      {
-        id: 1,
-        text: "Nakarmic kota",
-        date: todayDate,
-        active: true,
-        important: false,
-        finishDate: null,
-      },
-      {
-        id: 2,
-        text: "Nakarmic słonia",
-        date: todayDate,
-        active: true,
-        important: false,
-        finishDate: null,
-      },
-      {
-        id: 3,
-        text: "Nakarmic słonia",
-        date: todayDate,
-        active: true,
-        important: false,
         finishDate: null,
       },
     ],
